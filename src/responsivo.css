@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px) {
+  .menu {
+    padding: 5px 5%;
+  }
+
+  .items-menu {
+    display: none;
+  }
+
+  .items-menu-mobile {
+    display: block;
+  }
+
+  .items-mobile {
+    transition: 1s;
+  }
+
+  .show {
+    opacity: 1;
+  }
+
+  .hide {
+    opacity: 0;
+  }
+
+  footer.items-menu {
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: aqua;
+  }
+
+  .text-footer {
+    width: 100px;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  .diferenciais {
+    flex-wrap: wrap;
+  }
+
+  .box-diferenciais {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  section.marcas > .center {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.marcas img {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .beneficios .center {
+    flex-wrap: wrap;
+  }
+
+  .lista-beneficios,
+  .img-beneficios {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .img-beneficios img {
+    padding-left: 0px;
+  }
+}
